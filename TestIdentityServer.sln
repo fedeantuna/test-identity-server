@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIdentityServer.Api", "src\TestIdentityServer.Api\TestIdentityServer.Api.csproj", "{E8C3499E-FC68-430F-8642-FC9C6641E340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{155DC014-6479-4288-94C4-3AB9380A572F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIdentityServer.Api.Tests.Unit", "tests\TestIdentityServer.Api.Tests.Unit\TestIdentityServer.Api.Tests.Unit.csproj", "{F8C2DCDF-F820-475A-9F32-57D4E6650D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B317FED0-520B-4538-A494-1BF2607BD01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C3499E-FC68-430F-8642-FC9C6641E340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C3499E-FC68-430F-8642-FC9C6641E340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C3499E-FC68-430F-8642-FC9C6641E340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C3499E-FC68-430F-8642-FC9C6641E340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C2DCDF-F820-475A-9F32-57D4E6650D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C2DCDF-F820-475A-9F32-57D4E6650D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C2DCDF-F820-475A-9F32-57D4E6650D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C2DCDF-F820-475A-9F32-57D4E6650D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8C2DCDF-F820-475A-9F32-57D4E6650D09} = {155DC014-6479-4288-94C4-3AB9380A572F}
+	EndGlobalSection
+EndGlobal
