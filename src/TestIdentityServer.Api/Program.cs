@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using TestIdentityServer.Api;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddServices();
+
+var app = builder.Build();
+app.SetupMiddleware();
 
 app.Run();

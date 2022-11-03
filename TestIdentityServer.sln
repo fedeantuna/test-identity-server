@@ -7,6 +7,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIdentityServer.Api.Tests.Unit", "tests\TestIdentityServer.Api.Tests.Unit\TestIdentityServer.Api.Tests.Unit.csproj", "{F8C2DCDF-F820-475A-9F32-57D4E6650D09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B317FED0-520B-4538-A494-1BF2607BD01A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7A5A387B-367B-4B8B-9823-966F0E3E8436}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		TestIdentityServer.sln.DotSettings = TestIdentityServer.sln.DotSettings
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +37,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F8C2DCDF-F820-475A-9F32-57D4E6650D09} = {155DC014-6479-4288-94C4-3AB9380A572F}
+		{7A5A387B-367B-4B8B-9823-966F0E3E8436} = {B317FED0-520B-4538-A494-1BF2607BD01A}
 	EndGlobalSection
 EndGlobal
