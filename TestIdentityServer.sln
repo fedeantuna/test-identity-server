@@ -20,6 +20,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 		TestIdentityServer.sln.DotSettings = TestIdentityServer.sln.DotSettings
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{0BE7AB84-852A-4BBD-BF9D-03DBFBE2EE58}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +43,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F8C2DCDF-F820-475A-9F32-57D4E6650D09} = {155DC014-6479-4288-94C4-3AB9380A572F}
 		{7A5A387B-367B-4B8B-9823-966F0E3E8436} = {B317FED0-520B-4538-A494-1BF2607BD01A}
+		{0BE7AB84-852A-4BBD-BF9D-03DBFBE2EE58} = {B317FED0-520B-4538-A494-1BF2607BD01A}
 	EndGlobalSection
 EndGlobal

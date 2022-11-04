@@ -12,7 +12,8 @@ public static class ConfigureServices
     {
         services.AddHttpContextAccessor();
 
-        services.AddControllers()
+        services
+            .AddControllers()
             .AddControllersAsServices();
         services.AddTransient<AuthorizationController>();
 
