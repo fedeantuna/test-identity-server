@@ -58,6 +58,7 @@ public static class ConfigureServices
 
                 options
                     .UseAspNetCore()
+                    .DisableTransportSecurityRequirement()
                     .EnableTokenEndpointPassthrough();
             })
             .AddValidation(options =>

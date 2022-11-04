@@ -10,7 +10,7 @@ WORKDIR /app
 
 LABEL org.opencontainers.image.authors="fedeantuna"
 LABEL org.opencontainers.image.url="https://github.com/fedeantuna/test-identity-server"
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL description="Test Identity Server"
 
 COPY --from=build-env /app/release /app
